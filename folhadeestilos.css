@@ -1,0 +1,282 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Staatliches', cursive;
+ }
+
+div.topo {
+     font-family: 'verdana';
+      color:#777;
+}
+body {
+    background: url("../Imagens/Fundo.png") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+}
+div.logo{
+    position: relative;
+    top: -80px;
+    width: 352px;
+    height: auto;
+}
+.logo img{
+    width: 150%;
+    margin-left: 10%;
+}
+nav {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    bottom: 650px;
+}
+nav ul li {
+    float: left;
+    color: #1E56B1;
+    width: auto;
+    margin: 0.9em;
+    font-size: 1.5em;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #1E56B1;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+nav ul li a:hover{
+    color: red;
+}
+div.img1 img{
+  width: 35%;
+  margin-left: -5%;
+  padding: 1%;
+  float: right;
+  margin-top: -5%;
+}
+#banner{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#banner img {
+    width: 100%;
+    height: 60%;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.H{
+    position: relative;
+    top: -50px;
+    font-size: 6em;
+    color: #1E56B1;
+    text-align: center;
+}
+div.H2{
+    position: relative;
+    top: -50px;
+    font-size: 2em;
+    color: #1E56B1;
+    text-align: center;
+}
+div.p{
+    font-size: 1.5em;
+    text-align: left;
+    color: black;
+}
+#desen{
+    width: 75%;
+    position: relative;
+    left: 15em;
+}
+#desen .conf-desen{
+    width: 40%;
+    border: 1px solid red;
+    margin-left: 1.5%;
+    padding: 1%;
+    float: left;
+    margin-top: 30px;
+}
+#desen .conf-desen img{
+    width: 30%;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+#desen .conf-desen p{
+    width: 90%;
+    margin-left: 5%;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+}
+#sobre{
+    width: 65%;
+    margin-left: 5%;
+    float: left;
+    position: relative;
+    height: 80%;
+    color: white;
+    top: 10%;
+}
+#textos{
+    width: 40%;
+    float: left;
+    position: relative;
+    padding: 5%;
+}
+div.textos p{
+    font-family: "verdana";
+    position: relative;
+    font-size: 2em;
+    color: #CD4652;
+    text-align: left;
+
+}
+ div.textos h1{
+    font-size: 6em;
+    color: #1E56B1;
+    text-align: left;
+}
+div.textos dl{
+    width: 50%;
+    font-size: 2em;
+    color: #CD4652;
+    text-align: justify;
+}
+div.textos img{
+  width: 35%;
+  margin-right: -40%;
+  padding: -1%;
+  float: right;
+  margin-top: -30%;
+}
+#meio{
+    width: 65%;
+    margin-left: 5%;
+    float: left;
+    position: relative;
+    height: 80%;
+    color: white;
+    top: 10%;
+}
+#web{
+    width: 40%;
+    float: left;
+    position: relative;
+    padding: 5%;
+  }
+div.web img{
+  width: 60%;
+  margin-right: -110%;
+  padding: 1%;
+  float: right;
+  margin-top: -40%;
+}
+#Sobre2{
+    width: 65%;
+    margin-left: 5%;
+    float: left;
+    position: relative;
+    height: 80%;
+    color: white;
+    top: 10%;
+}
+#ho{
+    width: 40%;
+    float: left;
+    position: relative;
+    padding: 5%;
+}
+
+div.ho img{
+  width: 80%;
+  margin-right: -40%;
+  padding: 1%;
+  float: right;
+  margin-top: -40%;
+}
+#conta {
+    width: 30%;
+    position: relative;
+    float: left;
+    padding: 1%;
+    top: 5%;
+    margin-left: 15%;
+    height: 400px;
+    text-align: center;
+    font-size: 1.7em;
+}
+#conta h4 {
+    text-align: center;
+    color: #1E56B1;
+    font-weight: bold;
+}
+#conta h5 {
+    color: #1E56B1;
+    font-weight: bold;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    vertical-align: middle;
+}
+#conta h5 img {
+    width: 100px;
+}
+#cont form {
+    width: 38%;
+    position: relative;
+    float: left;
+    padding: 2%;
+    top: 5%;
+    min-width: 400px;
+}
+#cont form label {
+    color: #1E56B1;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+#cont form input {
+    max-width: 100%;
+    width: 99%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: solid #1E56B1 1px;
+    padding-left: 1%;
+}
+#cont form textarea {
+    max-width: 100%;
+    width: 99%;
+    border: solid #1E56B1 1px;
+    padding-left: 1%;
+    min-height: 100px;
+}
+#cont form button {
+    width: 30%;
+    height: auto;
+    cursor: pointer;
+    background-color: #1E56B1;
+    color: #ffffff;
+    font-size: 1.5em;
+    padding: 15px 0 15px 0;
+    margin-left: 0%;
+    margin-top: 1%;
+}
+#rel{
+    position: relative;
+    top: 20px;
+    left: 995px;
+    text-align: center;
+    color:  #1E56B1;
+    font-size: 50px;
+    font-weight: bold;
+    width: 550px;
+    background: url("../Imagens/Fundo.png") no-repeat center top fixed;
+}
