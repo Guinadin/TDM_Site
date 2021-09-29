@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDM - Contato</title>
+    <link rel="stylesheet" type="text/css" href="../css/folhadeestilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="topo">
+        <header id="topo">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="../Imagens/logob.png" alt="TDM logo">
+                </a>
+            </div>
+            <div class="relogio" id="horario">
+                <script src="../HTML/JS/Relogio.js"></script>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../HTML/index.html">Home</a></li>
+                    <li><a href="../HTML/sobre.html">Sobre Nós</a></li>
+                    <li><a href="../HTML/desenvolvedores.html">Desenvolvedores</a></li>
+                    <li><a href="../HTML/contato.html">Contato</a></li>
+                    <label class="switch" id="label">
+                        <input type="checkbox" id="switch" >
+                                  
+                        <span class="slider round"></span>
+                    </label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="darktexto">Dark mode</p>
+                    <script src="JS/DarkMode.js"></script>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div id="cont">
+    <form name="cont_form" id="cont_form">
+        <p class="nome">
+          <label for="teste" style="font-size: 2.5em">Fale Conosco</label><br><br>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nomeid" required name="nome"/>
+        </p>
+        <p class="fone">
+            <label for="fone">Fone:</label><br>
+            <input type="text" id="foneid" required name="fone" />
+        </p>
+        <p></p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="emailid" name="email" required />
+        </p>
+        <p>
+            <textarea placeholder="Mensagem" required></textarea>
+        </p>
+        <button type="submit" form="cont_form">Enviar</button>
+    </form>
+    </div>
+   <div id="conta">
+    <h4>TDM</h4>
+    <h5><img src="../Imagens/icon-whatsApp.png" style="width: 140px;" alt="telefone"><br>(19) 5637-1674</h5>
+    <h5><img src="../Imagens/email2.png" alt="email"><br>TDM_contato@outlook.com</h5>
+    <h5><img src="../Imagens/marcador 2.png" alt="endereço"><br>MATRIZ - Unisal Campinas:
+        <br>Av. Almeida Garret, 267
+        <br>Jardim Nossa Sra. Auxiliadora - Campinas/SP
+        <br>Cep: 13051-083</h5>
+    </div >
+    <div class="container4">
+        <h2><br><br>
+            Criado e desenvolvido por Transformadores de Mentes<br>
+            Copyright 2021 Transformadores de Mentes - Todos os direitos reservados
+        </h2>
+    </div>
+
+</body>
+</html>
